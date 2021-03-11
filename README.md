@@ -62,9 +62,9 @@ Satisfies all of the preceding acceptance criteria plus the following:
 
 - [x] Application must include a service worker.
 
-- [ ] Application must include a web manifest.
+- [x] Application must include a web manifest.
 
-- [ ] Application must use IndexedDB for offline functionality.
+- [x] Application must use IndexedDB for offline functionality.
 
 - [ ] Application must be deployed to Heroku.
 
@@ -72,11 +72,11 @@ Deployment: 32%
 
 - [ ] Application deployed at live URL.
 
-- [ ] Application loads with no errors.
+- [x] Application loads with no errors.
 
 - [ ] Application GitHub URL submitted.
 
-- [ ] GitHub repository contains application code.
+- [x] GitHub repository contains application code.
 
 Application Quality: 15%
 
@@ -84,13 +84,13 @@ Application Quality: 15%
 
 Repository Quality: 13%
 
-- [ ] Repository has a unique name.
+- [x] Repository has a unique name.
 
-- [ ] Repository follows best practices for file structure and naming conventions.
+- [x] Repository follows best practices for file structure and naming conventions.
 
-- [ ] Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+- [x] Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
 
-- [ ] Repository contains multiple descriptive commit messages.
+- [x] Repository contains multiple descriptive commit messages.
 
 - [ ] Repository contains high-quality README file with description, screenshot, and link to deployed application.
 
