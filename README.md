@@ -1,11 +1,16 @@
-# Budget Tracker
+# Budget Tracker ![badge](https://img.shields.io/badge/License-Apache~2.0-brightgreen.svg)  
 
-## User Story
-- AS AN avid traveler
-- I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-- SO THAT my account balance is accurate when I am traveling 
+## Description
+
+<br>
+
+Budget Tracker is a full stack PWA(Progressive Web Application).  You can keep track of your budget no matter what your connection constraints may be.  As soon as you reestablish an internet connection Budget Tracker will automatically upload all of your input to the database.  Happy Tracking!
+
+<br>
 
 ## Acceptance Criteria
+
+<br>
 
 - GIVEN a budget tracker without an internet connection
 - WHEN the user inputs an expense or deposit
@@ -13,90 +18,106 @@
 - WHEN the user reestablishes an internet connection
 - THEN the deposits or expenses added while they were offline are added to their transaction history and their totals are updated
 
-## Offline Functionality
+<br>
 
-You’ll need to use IndexedDB to add offline functionality. Review Module 18: NoSQL, Lesson 4: Add Offline Persistence with IndexedDB as a refresher on how to add this to your application.
+## **Table of Contents**
 
-You’ll also need to add a service worker to your application. Review Module 19: Progressive Web Applications (PWA), Lesson 4: Using Service Workers as a refresher on how to add this to your application.
+<br>
 
-Once you’ve updated the existing budget tracker, it should provide the following functionality:
+* *[Installation](#installation)*
+* *[Screenshots](#screenshots)*
+* *[Usage Instructions](#usage-instructions)*
+* *[Contributing](#contributing)*
+* *[Technology](#technology)*
+* *[Tests](#tests)*
+* *[Questions](#questions)*
+* *[License](#license)*
 
-- The ability to enter deposits offline.
+<br>
 
-- The ability to enter expenses offline.
+## **Installation**
 
-- Offline entries should be added to the tracker when the application is brought back online.
+<br>
 
-## Web Manifest
-Because this will be a mobile-first application, you’ll also need to add a web manifest to your application with the app’s metadata, to let users’ devices know what they’re installing and how the app should look on the home screen.
+After cloning/forking the applications use the command `npm i` or `npm install` to download the necessary dependencies.
 
-In the module project, you used webpack to create the manifest.json file. For this application, you’ll need to create it manually and add it to the root of the public/ directory of your application. You can also review Module 19: Progressive Web Applications (PWA), Lesson 5: Convert the App to a PWA as a refresher on web manifests.
+<br>
 
-This manifest.json file for this project will contain the following properties:
+## **Screenshots**
 
-- name
+<br>
 
-- short_name
+**Budget Tracker:**
 
-- icons
+![Budget Tracker](public/Budget-Tracker.png)
 
-- theme_color
+<br>
 
-- background_color
+**Budget Tracker confirming upload of offline input:**
 
-- start_url
+![Budget Tracker Offline](public/Budget-tracker-offline.png)
 
-- display
+<br>
 
-## Deployment to Heroku Using MongoDB Atlas
+## **Usage-instructions**
 
-Finally, the budget tracker has a server and uses MongoDB as its database, so you’ll need to deploy this application to Heroku using MongoDB Atlas. To review this process, look at Module 18: NoSQL, Lesson 5: Add Mongoose Validation, specifically 18.5.5: Deploy to Heroku.
+<br>
 
-## Grading Requirements
+To test this application, or to run it locally use the command `npm start` to activate the server.  You may now navigate to `localhost:3001`.   
 
-This Challenge is graded based on the following criteria:
+<br>
 
-Technical Acceptance Criteria: 40%
+## **Contributing**
 
-Satisfies all of the preceding acceptance criteria plus the following:
+<br>
 
-- [x] Application must include a service worker.
+Please refer to the **[Contributor Covenant](https://www.contributor-covenant.org/)** for contribution guidelines.
 
-- [x] Application must include a web manifest.
+<br>
 
-- [x] Application must use IndexedDB for offline functionality.
+## **Technology**
 
-- [ ] Application must be deployed to Heroku.
+<br>
 
-Deployment: 32%
+**This project was completed using:** 
 
-- [ ] Application deployed at live URL.
+<br> 
 
-- [x] Application loads with no errors.
+- `Node.js`
+- `Express`
+- `IndexedDB`
+- `MongoDB`
+- `Mongoose`
+- `Compression`
+- `Morgan`
+- `Heroku`
 
-- [ ] Application GitHub URL submitted.
+<br>
 
-- [x] GitHub repository contains application code.
+## **Tests**  
 
-Application Quality: 15%
+<br>
 
-- [ ] User experience is intuitive and easy to navigate.
+No test need to be run at this time. 
 
-Repository Quality: 13%
+<br>
 
-- [x] Repository has a unique name.
+## **Questions**
 
-- [x] Repository follows best practices for file structure and naming conventions.
+<br>
 
-- [x] Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+For any questions, comments, or feedback please feel free to reach out: <br>
+- **[Github](https://github.com/gintstir)** 
+- **<gint.stirbys@gmail.com>**
 
-- [x] Repository contains multiple descriptive commit messages.
+<br>
 
-- [ ] Repository contains high-quality README file with description, screenshot, and link to deployed application.
+## **License** 
 
-How to Submit the Challenge
-You are required to submit BOTH of the following for review:
+<br>
 
-- [ ] The URL of the functional, deployed application.
+Copyright © **Gintautas Stirbys**, **2021**.  All Rights Reserved.
 
-- [ ] The URL of the GitHub repository, with a unique name and a README describing the project.
+This Project is licensed under the **[Apache~2.0](https://www.apache.org/licenses/LICENSE-2.0)** license.
+
+

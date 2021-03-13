@@ -32,10 +32,14 @@ tr:nth-child(even) {
   text-align: center;
 }
 
+
+
 .total {
   font-size: 150%;
-  text-decoration: underline;
+  text-decoration: underline;  
 }
+
+
 
 .form {
   margin-top: 25px;
