@@ -49,13 +49,13 @@ After cloning/forking the applications use the command `npm i` or `npm install` 
 
 **Budget Tracker:**
 
-![Budget Tracker](public/assets/screenshots/Budget-Tracker.png)
+![Budget Tracker](public/images/screenshots/Budget-Tracker.png)
 
 <br>
 
 **Budget Tracker confirming upload of offline input:**
 
-![Budget Tracker Offline](public/assets/screenshots/Budget-tracker-offline.png)
+![Budget Tracker Offline](public/images/screenshots/Budget-tracker-offline.png)
 
 <br>
 
