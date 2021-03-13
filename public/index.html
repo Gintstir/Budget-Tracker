@@ -42,14 +42,14 @@
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-  <script src="js/index.js"></script>
-  <script src="js/idb.js"></script>
+  <script src="assets/js/index.js"></script>
+  <script src="assets/js/idb.js"></script>
   <script type="text/javascript">
     (function () {
       if("serviceWorker" in navigator) {
         navigator.serviceWorker
           .register('./service-worker.js')
-          .then(() => console.log("Hi, Service worker here, its a pleasure to assist you today!"))
+          .then(() => console.log("Hi, Service worker has been registered, its a pleasure to assist you today!"))
           .catch(error => console.log("Sorry, the service worker isn't here maybe this will help: ", error)
           );
       }
